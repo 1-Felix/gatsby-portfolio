@@ -4,7 +4,14 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Felix - Portfolio`,
+    siteTitle: `Felix Keller - Portfolio`,
+    siteTitleAlt: `Felix - @felixkeller98/gatsby-portfolio`,
+    siteHeadline: `Portfolio - Felix Keller`,
+    siteUrl: `https://portfolio.felix-keller.com`,
+    siteDescription: `Portfolio from Felix Keller, a hobyy web dev from germany`,
+    siteLanguage: `en`,
+    siteImage: `/banner.png`,
+    author: `@felixkeller98`,
   },
   plugins: [
     {
@@ -20,9 +27,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Felix Keller - Portfolio`,
+        short_name: `Felix Keller`,
+        description: `Portfolio from Felix Keller, a hobyy web dev from germany`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
